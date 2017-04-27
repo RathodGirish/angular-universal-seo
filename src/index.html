@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <base href="/">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sctochiversal</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="fragment" content="!">
+        <!--<meta name="title" [attr.content]="universalModel.title">
+        <meta name="description" [attr.content]="universalModel.description">
+        <meta property="og:title" [attr.content]="universalModel.ogTitle" />
+        <meta property="og:description" [attr.content]="universalModel.ogDescription" />
+        <meta property="og:image" [attr.content]="universalModel.ogImage" />-->
+
+            <meta name="title" [attr.content]="UniversalModel.title" />
+            <meta property="og:title" [attr.content]="UniversalModel.ogTitle" />
+            <meta name="description" [attr.content]="UniversalModel.description" />
+            <meta property="og:description" [attr.content]="UniversalModel.ogDescription" />
+            <meta name="og:image" [attr.content]="UniversalModel.ogImage" />
+
+        <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+        <link rel="prerender" href="http://localhost:3000/lazy">
+
+        <link rel="preload" href="/assets/logo.png">
+        <link rel="stylesheet" href="/assets/style.css">
+
+        <script type="text/javascript" src="/assets/jquery.min.js"></script>
+    </head>
+<body>
+    
+  <app></app>
+  <header></header>
+  <script async src="/main.bundle.js"></script>
+</body>
+</html>
